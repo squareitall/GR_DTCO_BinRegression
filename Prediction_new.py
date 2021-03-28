@@ -15,7 +15,7 @@ Created on Fri Mar 13 17:20:35 2020
 C_S=sorted(Com.items(), key = lambda kv:(kv[1], kv[0]))
 
 d_2 = pd.read_csv('KGAE.csv')
-d_2=d_2[['GR','DTCO']],'DT','VPVS']]
+d_2=d_2[['GR','DTCO']]#'DT','VPVS']]
 d= d_2[d_2.DTCO<0]
 d_T= d_2[d_2.DTCO>0]
 d_2= d_2[d_2.DTCO>0]
